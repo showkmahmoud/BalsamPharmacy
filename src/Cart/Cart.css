@@ -1,0 +1,25 @@
+#Cart button{
+    margin: 0 !important;
+    padding: 0 !important;
+    color: red !important;
+}
+.quantity_btn{
+    width: 40px;
+  height: 40px;
+  line-height: 10px;
+  border:var(--main-color) solid 2px  ;
+  background-color: #fff ;
+  color: var(--main-color);
+  border-radius: 50% ;
+  font-size: 30px;
+  padding-bottom: 6px;
+  transition: .2s ease;
+}
+.quantity_btn:focus{
+    outline: none; 
+}
+.quantity_btn:hover{
+    background-color: var(--main-color) ;
+    color: #fff;
+
+}

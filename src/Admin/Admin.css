@@ -1,0 +1,16 @@
+.admin_page{
+    background-color: #eee;
+}
+.card{
+    border-radius: 15px !important;
+    transition: .2s ease;
+}
+.card:hover {
+    box-shadow: 10px 40px 50px rgb(104 109 124 / 40%)
+}
+p{
+    font-size: 17px;
+}
+.admin_card_info_price{
+    font-weight: 500;
+}

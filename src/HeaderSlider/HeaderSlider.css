@@ -1,0 +1,19 @@
+.header {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.3)),
+    url('../assets/header_img.jpg');
+    height:630px;
+    object-fit: cover;
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+.header_title{
+  font-size: 3.5rem;
+  font-weight: 700;
+  font-family: 'Karla', sans-serif;
+}
+.header .main_btn:hover{
+  background-color: #fff;
+  color: var(--main-color) !important;
+  border: 2px solid #fff;
+  /* box-shadow: 10px 40px 50px rgb(104 109 124 / 40%);*/
+}

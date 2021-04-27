@@ -1,0 +1,10 @@
+.sign_up_link{
+    color: var(--main-color);
+    transition: .2s ease;
+}
+.sign_up_link:hover{
+    color: var(--price-color);
+}
+.sign_in_page{
+    background-color: #eee;
+}

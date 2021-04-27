@@ -1,0 +1,137 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+/* main colors*/
+:root{
+  /* to call it var(--main-color) */
+  --main-color:#24AEB1; 
+  --sec-color:#262626;
+  --nav-items-color:#fff;
+  --price-color:#F34770;
+  --blogs-title:#1D2A38;
+  --paragraph-color:#7D879C;
+}
+/* Ending main colors*/
+
+/* Global Code */
+body{
+  font-family: 'Montserrat', sans-serif;
+}
+
+.links-and-headers-font{
+  font-family: 'Montserrat', sans-serif;
+  font-family: 'Oswald', sans-serif;
+}
+.paragraph-and-btn-font{
+  font-family: 'Karla', sans-serif;
+}
+a{
+  text-decoration: none !important;
+}
+a:hover{
+  text-decoration: none !important;
+ 
+}
+/************************ titles **********************************/
+.section_title {
+  color: var(--sec-color) ;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  text-align: center;
+}
+.section_title::after{
+  content: '';
+  margin: 15px auto 0;
+  background-color: var(--price-color) ;
+  display: block;
+  width: 70px;
+  height: 3px;
+}
+.section_sub_title{
+  color: var(--sec-color) ;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  text-align: left;
+}
+.section_sub_title::after{
+  content: '';
+  margin: 15px 0 0;
+  background-color: var(--main-color) ;
+  display: block;
+  width: 70px;
+  height: 3px;
+}
+/************************ /titles **********************************/
+
+/************************Main Button************************/
+.main_btn{
+  padding: 5px 30px;
+  border-radius: 20px ;
+  border: 2px solid transparent ;
+  background-color: var(--main-color) ;
+  color: #fff;
+  font-weight: 600;
+  font-size: 20px;
+  transition: .2s ease;
+}
+.main_btn:hover{
+  background-color: #fff;
+  color: var(--main-color);
+  border: 2px solid var(--main-color) ;
+}
+/************************ /Main Button************************/
+/************************ Sec Button************************/
+.sec_btn{
+  padding: 5px 30px;
+  border-radius: 20px ;
+  border:var(--main-color) solid 2px  ;
+  background-color: #fff ;
+  color: var(--main-color);
+  font-weight: 600;
+  font-size: 20px;
+  margin-top: 3%;
+  transition: .2s ease;
+}
+.sec_btn:hover{
+  background-color: var(--main-color);
+  color: #fff;
+}
+/************************ /Sec Button************************/
+
+/* Ending Global Code*/
+

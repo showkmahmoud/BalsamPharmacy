@@ -1,0 +1,15 @@
+.sec_btn{
+    padding: 5px 30px;
+    border-radius: 20px ;
+    border:var(--main-color) solid 2px  ;
+    background-color: #fff ;
+    color: var(--main-color);
+    font-weight: 600;
+    font-size: 20px;
+    margin-top: 3%;
+    transition: .2s ease;
+}
+.sec_btn:hover{
+    background-color: var(--main-color);
+    color: #fff;
+}

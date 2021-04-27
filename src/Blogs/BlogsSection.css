@@ -1,0 +1,28 @@
+.blogs {
+  border: 1px solid silver;
+}
+.blogs-heading {
+  font-size: 40px;
+}
+.blogs a{
+  text-decoration: none;
+  color: black;
+}
+.blogs a:hover{
+  text-decoration: none;
+  color: black;
+}
+.blog_name{
+  color: #24AEB1;
+  /* cursor: pointer; */
+}
+
+.card__img__text{
+  left: 10px;
+  bottom: 60px;
+  background: var(--main-color);
+  width: 60px;
+  height: 70px;
+}
+
+
